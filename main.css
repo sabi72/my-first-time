@@ -1,0 +1,142 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+header{
+    background-image: url(../introduccion-html-css-master/img/bradcam.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 100vh;
+    color: white
+}
+
+#main-container header #menu{
+    padding: 50px 0;
+
+}
+
+header #menu ul{
+    margin: 0%;
+    padding: 0%;
+}
+
+header #menu ul li{
+    display: inline-block;
+    padding: 10px;
+    vertical-align: middle;
+}
+
+header #menu ul li a{
+    color: white;
+    text-decoration: none;
+
+}
+
+header #menu ul li a:hover{
+    text-decoration: underline;
+    color: yellowgreen;
+}
+
+header #menu ul #logo{
+    margin-right: 40%;
+    margin-left: 100px;
+}
+
+/* ******************* */
+
+#main-container header main{
+    margin: 20% auto;
+    width: 150px;
+}
+
+#main-container header main div{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#main-container header main div .text h1{
+    font-size: 80px;
+    margin: 0 auto;
+}
+
+#main-container header main div .text p{
+    font-size: 24px;
+    padding: 10px 0;
+    margin: 0 auto;
+}
+
+button{
+    background-color: turquoise;
+    border: 0;
+    border-radius: 3px;
+    color: white;
+    cursor: pointer;
+    font-size: 24px;
+    padding: 20px 25px;
+    margin: 40px;
+}
+
+button:hover{
+    background-color: teal;
+}
+
+#main-container header main .image{
+    text-align: right;
+    width: 150px;
+}
+
+/* ******************************** */
+
+.layout{
+    width: 500px;
+    margin: 250px auto;
+}
+
+.layout div{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.layout h3{
+    font-size: 40px;
+    padding: 25px 0;
+}
+
+.layout p{
+    padding: 25px 0;
+    line-height: 32px;
+}
+
+.layout-left .text{
+    width: 500px;
+}
+
+.layout-left .image{
+    margin: 20% auto;
+    width: 150px;
+    text-align: right;
+}
+
+.layout-rigth .text{
+    width: 500px;
+}
+
+.layout-rigth .image{
+    margin: 0 auto;
+    padding: 0 10%;
+    width: 150px;
+    text-align: center;
+}
+
+footer{
+    background-color:black;
+    padding: 150px 20px;
+    color: white;
+    text-align: center;
+}
